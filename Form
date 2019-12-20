@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta author="Mist-co">
+    <title>Calcolatore binario</title>
+    <link rel="shortcut icon" href="#">
+  </head>
+  <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+    <h1 align='center'>Calcolatore binario & risolutore in polinomi</h1>
+    <h5 align='center'>(© Mist-co - 2019)</h5>
+    <form action="risultato.php" method="post">
+      1° valore<br>
+      <input type="text" name="valore1"><br/>
+      <br/>
+      2° valore<br>
+      <input type="text" name="valore2"><br/>
+      <br/>
+      <input type="radio" name="operatore" value="somma" checked> +<br/>
+      <input type="radio" name="operatore" value="sottrazione"> -<br/>
+      <input type="radio" name="operatore" value="moltiplicazione"> *<br/>
+      <input type="radio" name="operatore" value="divisione"> /<br/>
+      <br/>
+      <input type="submit" name="invia" value="Calcola!">
+    </form>
+  </body>
+</html>

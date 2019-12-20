@@ -2,9 +2,9 @@
 <html lang="it" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta author="Alessandro Russo">
+    <meta author="Mist-co">
     <title>Risultato</title>
-    <link rel="shortcut icon" href="https://digilander.libero.it/Detective_mistery/icon_site.ico">
+    <link rel="shortcut icon" href="#">
     <style type="text/css">
     .container{
         margin:30px auto;
@@ -23,7 +23,7 @@
   </head>
   <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
     <h1 align='center'>Risultato</h1>
-    <h5 align='center'>(© Alessandro Russo - 2019)</h5>
+    <h5 align='center'>(© Mist-co - 2019)</h5>
     <?php
       $valore1_bin =  $_POST["valore1"];
       $valore2_bin =  $_POST["valore2"];

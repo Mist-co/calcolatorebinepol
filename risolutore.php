@@ -23,7 +23,7 @@
   </head>
   <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
     <h1 align='center'>Risultato</h1>
-    <h5 align='center'>(© Mist-co - 2019)</h5>
+    <h5 align='center'>(© Mist-co - 2020)</h5>
     <?php
       $valore1_bin =  $_POST["valore1"];
       $valore2_bin =  $_POST["valore2"];
